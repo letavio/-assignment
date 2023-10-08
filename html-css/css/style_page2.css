@@ -1,0 +1,107 @@
+
+.header {
+    background-color: #F0EFE9;
+    padding:20px;
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px;
+}
+.logo {
+    width: 196px;
+    height: 2px;
+    background-size: cover;
+}
+
+.contact-social-container {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 20px;
+}
+
+.contact-info {
+    display: flex;
+    margin-left: 5px;
+    gap: 20px;
+    padding: 1px;
+    font: normal normal 300 15px/25px Inter;
+    color:#191919;
+    text-align: left;
+    margin-top: 0px;
+    left: 940px;
+    height:20px ;
+        
+   .social-icons {
+    display: flex;
+    padding: -15px;
+    gap: 10px;
+    margin-top:0px;
+    margin-right: 80px;
+    }
+
+}
+.contact-social-container {
+    border-bottom: 1px solid #191919; 
+    margin-left: 250px;
+    margin-top: 18px;
+  
+}
+
+.contact-info::after {
+    content: "";
+    width: 1px;
+    height: 90%; 
+    background-color:#cacaca;
+    position: absolute;
+    right: 0px; 
+    }
+
+
+.menu-container {
+    display: grid;
+    grid-template-columns: 1fr auto; 
+    gap: 20px;
+    align-items: center;
+    margin-left: 220px;
+    top: 86px;
+    left: 525px;
+    width: 306px;
+    height: 21px;
+.book-demo-button1{
+    background-color: #ffcc00;
+    color:#191919;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 550px;
+    width:122px;
+    height: 48px;
+    text-align:center;
+    font: normal normal 600 16px/16px Inter;
+    gap: 10px;
+    }
+}
+    
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: #191919;
+}
+
+.menu ul li {
+    cursor: pointer;
+}
+
+.breadcrumb {
+ position: absolute;
+
+
+}
+
+
+
+
